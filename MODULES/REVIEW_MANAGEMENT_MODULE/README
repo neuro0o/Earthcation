@@ -1,5 +1,0 @@
-<!-- REVIEW MANAGEMENT MODULE -->
-a.	SUBMIT REVIEW
-  i.	Submit reviews based on reservationID + operator/packages + accommodation reserved. (similar to indiv web)
-  ii.	Function to manage and moderate (delete) reviews and ratings of each operator, package and accommodation – exclusive for admin
-  iii.	Filter/categorize/sort review & ratings based on scale (1-5) for user to check in operator/package/accommodation portfolio

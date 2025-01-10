@@ -1,8 +1,0 @@
-<!-- USER MANAGEMENT MODULE -->
-a.	AUTHENTICATION CHECK: (mcm indiv web, just to check whether userEmail, userName, userPwd matches or not).
-  i.	If authentication failed, go to register to create new acc.
-  ii.	If authentication success, redirect user to index of each role’s home dashboard page (Admin, User, Operator, Accommodation)
-
-b.	PROFILE MANAGEMENT
-  i.	Create function/place to let user customize their username, userEmail, userPwd (this is for all role) – [this function will be accessible to other module that have role dashboard.]
-  ii.	For admin, they’ll have the above function + boleh delete any account from the system [this function will be implemented in ADMIN DASHBOARD MODULE, but the page still use this]
