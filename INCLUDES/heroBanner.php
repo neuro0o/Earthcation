@@ -31,8 +31,12 @@
     </h3>
 
     <div class="hero-button">
-      <button type="button" id="register-button">REGISTER</button>
-      <button type="button" id="login-button">LOGIN</button>
+      <a href="<?php echo BASE_URL . '/MODULES/USER_MANAGEMENT_MODULE/AUTH/registerForm.php'; ?>">
+          <button type="button" id="register-button">REGISTER</button>
+      </a>
+      <a href="<?php echo BASE_URL . '/MODULES/USER_MANAGEMENT_MODULE/AUTH/loginForm.php'; ?>">
+          <button type="button" id="login-button">LOGIN</button>
+      </a>
     </div>
   </div>
 </body>
