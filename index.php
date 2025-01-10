@@ -29,7 +29,7 @@
 
     <div class="title">
       <h2 id="section-title">
-        Why Join Us?
+        Why Join Us? test
       </h2>
     </div>
 
