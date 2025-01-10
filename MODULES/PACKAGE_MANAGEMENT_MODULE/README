@@ -1,0 +1,9 @@
+<!-- PACKAGE MANAGEMENT MODULE -->
+a.	CRUD OPEARTIONS
+  i.	Create new package for operator to choose from.
+  ii.	Edit package that has been created
+  iii.	Delete package that has been created
+  iv.	Set infos (category, desc, price, status)
+
+b.	ASSIGNMENT
+  i.	Assign package to respective operators

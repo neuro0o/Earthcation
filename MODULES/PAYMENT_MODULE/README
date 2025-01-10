@@ -1,0 +1,8 @@
+<!-- PAYMENT MODULE -->
+a.	PAYMENT ENVIRONMENT
+  i.	Handle payment for reservation and packages
+  ii.	Generate receipt for each reservation (so user blh printout)
+  iii.	Handle refund & transaction history
+  iv.	Integrate with payment gateways (acah2 sak I guess)
+  v.	OR maybe we can buat each user ada points yg dorg leh spend for each purchase. So kiranya kena topup di profile page dlu laaa.
+  vi.	If mw buat pts system, kena add new attribute di user table (userPts, decimal 8,2)
