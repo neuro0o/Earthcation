@@ -27,6 +27,13 @@
     <!-- include heroBanner.php -->
     <?php include './INCLUDES/heroBanner.php';?>
 
+    <?php
+      // alert message if user has logged out successfully
+      if (isset($_GET['logout']) && $_GET['logout'] == 'success') {
+        echo '<script type="text/javascript">alert("Logout successful!");</script>';
+      }
+    ?>
+
     <div class="title">
       <h2 id="section-title">
         Why Join Us?

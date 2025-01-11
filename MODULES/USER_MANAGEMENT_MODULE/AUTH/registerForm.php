@@ -37,6 +37,14 @@
         <label for="reguserEmail">User Email:</label><br>
         <input type="email" id="reguserEmail" name="userEmail" required><br><br>
 
+        <label for="userRole">Select Role:</label><br>
+        <select id="userRole" name="userRole" required>
+          <option value="" disabled selected></option>
+          <option value="2">User</option>
+          <option value="3">Operator</option>
+          <option value="4">Accommodation</option>
+        </select><br><br>
+
         <label for="reguserPwd">Password:</label><br>
         <input type="password" id="reguserPwd" name="userPwd" required"><br><br>
 

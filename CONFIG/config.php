@@ -7,7 +7,7 @@
 
     // define ADMIN_BASE_URL if it hasn't been defined yet
     if (!defined('ADMIN_BASE_URL')) {
-        define('ADMIN_BASE_URL', 'http://localhost/earthcation/admin');
+        define('ADMIN_BASE_URL', 'http://localhost/earthcation/MODULES/ADMIN_DASHBOARD_MODULE');
     }
 
     // define BASE_URL if it hasn't been defined yet

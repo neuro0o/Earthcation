@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 10, 2025 at 03:38 AM
+-- Generation Time: Jan 11, 2025 at 10:02 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -122,6 +122,16 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`userID`, `userEmail`, `userName`, `userPwd`, `userRole`) VALUES
+(1, 'admin@email.com', 'admin', '$2y$10$19Rkqe97nV7XzoJqtlnZju52VtXlGYRWn/t5QTRsqQ3JRHH.I8QvG', 1),
+(2, 'user1@email.com', 'user1', '$2y$10$wsEu8i.Ct2fs0y4crsrqAOoXkRK/1I0M.TikJ0JW2tPMeGZnDuvQS', 2),
+(3, 'operator1@email.com', 'operator1', '$2y$10$O/dMw.S./1hz5xgDJ3VXy.NoShHx1U5.K.9qXqf.H7Qc/mUTdfKGq', 3),
+(4, 'accommodation1@email.com', 'accommodation1', '$2y$10$yBAGFDY3csuzqI.JpB0y.egd1zmr8ngsKdUyZ6E3HjnLe6tSdSNti', 4);
+
+--
 -- Indexes for dumped tables
 --
 
@@ -222,7 +232,7 @@ ALTER TABLE `review`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Constraints for dumped tables
