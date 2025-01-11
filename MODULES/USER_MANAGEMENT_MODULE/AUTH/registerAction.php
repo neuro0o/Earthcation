@@ -26,6 +26,7 @@
       if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $userName = mysqli_real_escape_string($conn, $_POST['userName']);
         $userEmail = mysqli_real_escape_string($conn, $_POST['userEmail']);
+        $userRole = mysqli_real_escape_string($conn, $_POST['userRole']);
         $userPwd = mysqli_real_escape_string($conn, $_POST['userPwd']);
         $confirmPwd = mysqli_real_escape_string($conn, $_POST['confirmPwd']);
 
@@ -50,8 +51,8 @@
           // user does not exist, insert new user record, hash the password
           $pwdHash = trim(password_hash($_POST['userPwd'], PASSWORD_DEFAULT));
           
-          $sql = "INSERT INTO user (userName, userEmail, userPwd)
-          VALUES ('$userName', '$userEmail', '$pwdHash')";
+          $sql = "INSERT INTO user (userName, userEmail, userRole, userPwd)
+          VALUES ('$userName', '$userEmail', '$userRole', '$pwdHash')";
 
           if(mysqli_query($conn, $sql)) {
             echo '<script type = "text/javascript">
