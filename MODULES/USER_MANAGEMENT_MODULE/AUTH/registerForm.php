@@ -35,7 +35,7 @@
         <input type="text" id="reguserName" name="userName" required><br><br>
 
         <label for="reguserEmail">User Email:</label><br>
-        <input type="text" id="reguserEmail" name="userEmail" required><br><br>
+        <input type="email" id="reguserEmail" name="userEmail" required><br><br>
 
         <label for="reguserPwd">Password:</label><br>
         <input type="password" id="reguserPwd" name="userPwd" required"><br><br>
