@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- utils css file -->
-    <link rel="stylesheet" href="../EARTHCATION/CSS/utils.css">
+    <link rel="stylesheet" href="../EARTHCATION/CSS/MISC/utils.css">
     
     <!-- landing page css file -->
-    <link rel="stylesheet" href="../EARTHCATION/CSS/landingPage.css">
+    <link rel="stylesheet" href="../EARTHCATION/CSS/MISC/landingPage.css">
 
     <title>LANDING PAGE</title>
   </head>

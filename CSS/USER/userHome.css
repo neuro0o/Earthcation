@@ -1,0 +1,6 @@
+/* main section for userHome page */
+.userHome {
+  padding: 1rem;
+  min-height: 100vh;
+  border-style: solid;
+}

@@ -1,7 +1,7 @@
 /* hero banner image container */
 .hero-banner {
   position: relative;
-  background-image: url(../IMAGES/BANNER/banner.jpg);
+  background-image: url(../../IMAGES/BANNER/banner.jpg);
   background-size: cover;
   background-position: center;
   height: 80rem;
