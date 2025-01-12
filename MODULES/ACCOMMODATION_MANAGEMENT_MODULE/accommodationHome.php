@@ -9,12 +9,18 @@
 
     <!-- utils css file -->
     <link rel="stylesheet" href="../../../Earthcation/CSS/utils.css">
+    
+    <!-- headerBanner.css -->
+    <link rel="stylesheet" href="../../../Earthcation/CSS/headerBanner.css">
 
     <!-- accommodationHome css file -->
 
     <title>ACCOMMODATION HOME</title>
   </head>
   <body>
+
+    <!-- include headerBanner.php -->
+    <?php include '../../INCLUDES/headerBanner.php';?>
     
     THIS IS ACCOMMODATION HOME PAGE<br>
 

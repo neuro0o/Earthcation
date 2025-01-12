@@ -17,12 +17,14 @@
 .hero-welcome-message {
   font-size: 7rem;
   padding-top: 15rem;
+  transition: 0.75s;
 }
 
 .hero-site-name {
   font-size: 7rem;
   line-height: 1;
   padding-bottom: 8rem;
+  transition: 0.75s;
 }
 
 /* highlight effect */
@@ -33,6 +35,7 @@
 
 .hero-site-desc {
   font-size: 3rem;
+  transition: 0.75s;
 }
 
 .hero-button {
@@ -40,6 +43,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 7rem 5rem;
+  transition: 0.75s;
 }
 
 .hero-button button {
@@ -50,6 +54,7 @@
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+  transition: 0.75s;
 }
 
 .hero-button button:active {
@@ -61,6 +66,7 @@
   padding: 1rem 0.7rem;
   margin-right: 2.5rem;
   background-color: var(--teal-100);
+  transition: 0.75s;
 }
 
 #register-button:hover {
@@ -70,6 +76,7 @@
 #login-button {
   padding: 1rem 1.4rem;
   background-color: var(--teal-300);
+  transition: 0.75s;
 }
 
 #login-button:hover {

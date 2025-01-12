@@ -10,11 +10,18 @@
     <!-- utils css file -->
     <link rel="stylesheet" href="../../../Earthcation/CSS/utils.css">
 
+    <!-- headerBanner.css -->
+    <link rel="stylesheet" href="../../../Earthcation/CSS/headerBanner.css">
+
     <!-- adminHome css file -->
 
     <title>ADMIN HOME</title>
   </head>
   <body>
+
+    <!-- include headerBanner.php -->
+    <?php include '../../INCLUDES/headerBanner.php';?>
+    
     THIS IS ADMIN HOME PAGE<br>
 
     <a href="../USER_MANAGEMENT_MODULE/AUTH/logout.php">
