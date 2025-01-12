@@ -43,9 +43,9 @@
     <?php include '../../INCLUDES/headerBanner.php';?>
     
 
-    <section class="userHome">
+    <section class="operatorHome">
       <h1 style="text-align: center;">
-        -- START OF OPERATOR HOME PAGE
+        -- START OF OPERATOR HOME PAGE --
       </h1><br><br>
     </section>
 
