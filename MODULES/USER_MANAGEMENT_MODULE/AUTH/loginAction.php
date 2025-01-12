@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- utils css file -->
-    <link rel="stylesheet" href="../../../../Earthcation/CSS/utils.css">
+    <link rel="stylesheet" href="../../../../Earthcation/CSS/MISC/utils.css">
 
     <!-- login css file -->
-    <link rel="stylesheet" href="../../../../Earthcation/CSS/login.css">
+    <link rel="stylesheet" href="../../../../Earthcation/CSS/MISC/login.css">
 
     <title>LOGIN ACTION</title>
   </head>
