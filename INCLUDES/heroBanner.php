@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../EARTHCATION/CSS/utils.css">
 
   <!-- banner css file -->
-  <link rel="stylesheet" href="../../EARTHCATION//CSS/heroBanner.css">
+  <link rel="stylesheet" href="../../EARTHCATION/CSS/heroBanner.css">
 
   <title>HERO BANNER</title>
 </head>
