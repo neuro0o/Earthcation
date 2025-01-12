@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  // include db config
+  include("../../../Earthcation/CONFIG/config.php");  
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,12 +23,18 @@
     <!-- topNav css file -->
     <link rel="stylesheet" href="../../../Earthcation/CSS/MISC/topNav.css">
 
+    <!-- topHeader css file -->
+    <link rel="stylesheet" href="../../../Earthcation/CSS/MISC/topHeader.css">
+
     <!-- operatorHome css file -->
     <link rel="stylesheet" href="../../../Earthcation/CSS/OPERATOR/operatorHome.css">
 
     <title>OPERATOR HOME</title>
   </head>
   <body>
+
+    <!-- include topNav.php -->
+    <?php include '../../INCLUDES/topHeader.php'; ?>
     
     <!-- include operatorNav.php -->
     <?php include '../../INCLUDES/operatorNav.php'; ?>
