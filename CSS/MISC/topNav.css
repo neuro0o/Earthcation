@@ -1,7 +1,7 @@
 /* main container for topNav */
 .topNav {
   position: sticky;
-  top: 0;
+  top: 7rem;
   margin: 0;
   padding: 0;
   z-index: 1;
