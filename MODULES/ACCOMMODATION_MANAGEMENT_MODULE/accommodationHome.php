@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  // include db config
+  include("../../../Earthcation/CONFIG/config.php");  
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,12 +23,18 @@
     <!-- topNav css file -->
     <link rel="stylesheet" href="../../../Earthcation/CSS/MISC/topNav.css">
 
+    <!-- topHeader css file -->
+    <link rel="stylesheet" href="../../../Earthcation/CSS/MISC/topHeader.css">
+
     <!-- accommodationHome css file -->
     <link rel="stylesheet" href="../../../Earthcation/CSS/ACCOMMODATION/accommodationHome.css">
 
     <title>ACCOMMODATION HOME</title>
   </head>
   <body>
+
+    <!-- include topNav.php -->
+    <?php include '../../INCLUDES/topHeader.php'; ?>
     
     <!-- include accommodationNav.php -->
     <?php include '../../INCLUDES/accommodationNav.php'; ?>
