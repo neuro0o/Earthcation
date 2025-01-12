@@ -44,13 +44,9 @@
     
 
     <section class="userHome">
-      <h1>
-      THIS IS USER HOME PAGE
+      <h1 style="text-align: center;">
+        -- START OF USER HOME PAGE --
       </h1><br><br>
-
-      <a href="../USER_MANAGEMENT_MODULE/AUTH/logout.php">
-        LOGOUT HERE
-      </a>
     </section>
 
     <!-- include topNav.js -->
