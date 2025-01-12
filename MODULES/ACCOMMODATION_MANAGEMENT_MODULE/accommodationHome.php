@@ -44,13 +44,9 @@
     
 
     <section class="accommodationHome">
-      <h1>
-      THIS IS ACCOMMODATION HOME PAGE
+      <h1 style="text-align: center;">
+        -- START OF ACCOMMODATION HOME PAGE --
       </h1><br><br>
-
-      <a href="../USER_MANAGEMENT_MODULE/AUTH/logout.php">
-        LOGOUT HERE
-      </a>
     </section>
 
     <!-- include topNav.js -->
