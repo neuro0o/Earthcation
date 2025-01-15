@@ -5,6 +5,10 @@
   border-style: solid;
 }
 
+
+/*==============================
+  profile.php
+==============================*/
 /* container for user profile */
 .profile-container {
   margin: 2rem;
@@ -65,3 +69,22 @@
 
 
 
+/*==============================
+  editProfile.php
+==============================*/
+/* container for profile edit form */
+.profile-form {
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* FIXME: remove this later */
+  border-style: solid;
+}
+
+
+#form-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}

@@ -90,7 +90,10 @@
                 <td class="title">PASSWORD</td>
                 <td class="content">********</td>
               </tr>
-          </table>
+          </table><br>
+
+          <button id="edit-profile" onclick="window.location.href='editProfile.php'">EDIT PROFILE</button>
+
         </div>
       </div>
     </section>
