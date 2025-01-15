@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 11, 2025 at 10:02 AM
+-- Generation Time: Jan 15, 2025 at 05:01 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -118,6 +118,7 @@ CREATE TABLE `user` (
   `userEmail` varchar(255) NOT NULL,
   `userName` varchar(255) NOT NULL,
   `userPwd` varchar(255) NOT NULL,
+  `userImg` varchar(100) NOT NULL,
   `userRole` int(2) NOT NULL COMMENT '1:Admin 2:User 3:Operator 4:Accommodation'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -125,11 +126,11 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`userID`, `userEmail`, `userName`, `userPwd`, `userRole`) VALUES
-(1, 'admin@email.com', 'admin', '$2y$10$19Rkqe97nV7XzoJqtlnZju52VtXlGYRWn/t5QTRsqQ3JRHH.I8QvG', 1),
-(2, 'user1@email.com', 'user1', '$2y$10$wsEu8i.Ct2fs0y4crsrqAOoXkRK/1I0M.TikJ0JW2tPMeGZnDuvQS', 2),
-(3, 'operator1@email.com', 'operator1', '$2y$10$O/dMw.S./1hz5xgDJ3VXy.NoShHx1U5.K.9qXqf.H7Qc/mUTdfKGq', 3),
-(4, 'accommodation1@email.com', 'accommodation1', '$2y$10$yBAGFDY3csuzqI.JpB0y.egd1zmr8ngsKdUyZ6E3HjnLe6tSdSNti', 4);
+INSERT INTO `user` (`userID`, `userEmail`, `userName`, `userPwd`, `userImg`, `userRole`) VALUES
+(1, 'admin@email.com', 'admin', '$2y$10$19Rkqe97nV7XzoJqtlnZju52VtXlGYRWn/t5QTRsqQ3JRHH.I8QvG', '/IMAGES/PROFILE/default.png', 1),
+(2, 'user1@email.com', 'user1', '$2y$10$wsEu8i.Ct2fs0y4crsrqAOoXkRK/1I0M.TikJ0JW2tPMeGZnDuvQS', '/IMAGES/PROFILE/default.png\r\n', 2),
+(3, 'operator1@email.com', 'operator1', '$2y$10$O/dMw.S./1hz5xgDJ3VXy.NoShHx1U5.K.9qXqf.H7Qc/mUTdfKGq', '/IMAGES/PROFILE/default.png', 3),
+(4, 'accommodation1@email.com', 'accommodation1', '$2y$10$yBAGFDY3csuzqI.JpB0y.egd1zmr8ngsKdUyZ6E3HjnLe6tSdSNti', '/IMAGES/PROFILE/default.png', 4);
 
 --
 -- Indexes for dumped tables
