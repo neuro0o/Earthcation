@@ -5,6 +5,7 @@
     <a href="">OPERATOR</a>
     <a href="">OPERATOR</a>
     <a href="">OPERATOR</a>
+    <a href="../../MODULES/USER_MANAGEMENT_MODULE/profile.php">PROFILE</a>
   </nav>
 
   <!-- hamburger icon (when screen become smaller) -->
