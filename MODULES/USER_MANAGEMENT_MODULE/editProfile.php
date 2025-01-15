@@ -54,9 +54,9 @@
 
         // update profile image if uploaded
         if (!empty($_FILES['profileImg']['name'])) {
-            // delete the previous image
-            if ($userImg && file_exists("../../../Earthcation" . $userImg)) {
-                unlink("../../../Earthcation" . $userImg);
+            // delete the previous image only if it is not "default.png"
+            if ($userImg && $userImg !== '/IMAGES/PROFILE/default.png' && file_exists("../../../Earthcation" . $userImg)) {
+              unlink("../../../Earthcation" . $userImg);
             }
 
             // set new image path
