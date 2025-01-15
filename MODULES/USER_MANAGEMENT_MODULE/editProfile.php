@@ -128,27 +128,27 @@
   <body>
     <section class="userHome">
      <div class="profile-form">
-        <h1 id="form-title">EDIT PROFILE</h1>
+        <h1 id="form-title">EDIT PROFILE</h1><br><br>
 
         <form method="POST" enctype="multipart/form-data">
-          <label for="currentPwd">Current Password:</label>
-          <input type="password" name="currentPwd" placeholder="Enter correct password to edit" required><br>
+          <label for="currentPwd">Current Password:</label><br>
+          <input type="password" name="currentPwd" placeholder="Enter correct password to edit" required><br><br>
 
-          <p>---</p>
+          <hr class="dashed"><br><br>
 
-          <label for="profileImg">Profile Image:</label>
-          <input type="file" name="profileImg" id="profileImg"><br>
+          <label for="profileImg">Profile Image:</label><br>
+          <input type="file" name="profileImg" id="profileImg"><br><br>
 
-          <label for="userName">Username:</label>
-          <input type="text" name="userName" value="<?php echo htmlspecialchars($userName); ?>" required><br>
+          <label for="userName">Username:</label><br>
+          <input type="text" name="userName" value="<?php echo htmlspecialchars($userName); ?>" required><br><br>
 
-          <label for="userEmail">Email:</label>
-          <input type="email" name="userEmail" value="<?php echo htmlspecialchars($userEmail); ?>" required><br>
+          <label for="userEmail">Email:</label><br>
+          <input type="email" name="userEmail" value="<?php echo htmlspecialchars($userEmail); ?>" required><br><br>
 
-          <label for="newPwd">New Password:</label>
-          <input type="password" name="newPwd" placeholder="optional"><br>          
+          <label for="newPwd">New Password:</label><br>
+          <input type="password" name="newPwd" placeholder="optional"><br><br>          
 
-          <button type="submit">Save</button>
+          <button type="submit">Save</button><br>
         </form>
 
      </div>
