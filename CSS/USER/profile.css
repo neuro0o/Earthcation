@@ -1,0 +1,67 @@
+/* main section for userHome page */
+.userHome {
+  padding: 1rem;
+  min-height: 100vh;
+  border-style: solid;
+}
+
+/* container for user profile */
+.profile-container {
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* FIXME: remove this later */
+  /* border-style: solid; */
+}
+
+/* profile image container */
+.profile-img {
+  margin: 2rem auto;  
+  width: 30rem;
+  height: 30rem;
+}
+
+.profile-img img {
+  width: 28rem;
+  height: 28rem;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+/* table container */
+.profile-info {
+
+  /* FIXME: remove this later */
+  /* border-style: solid; */
+}
+
+/* table ID */
+#profile-table {
+  width: 100%;
+}
+
+#profile-table th, td {
+  height: 5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  border-style: solid;
+}
+
+#profile-table th {
+  background-color: var(--teal-500);
+}
+
+#profile-table tr:hover {
+  background-color: var(--teal-300);
+}
+
+#profile-table .title {
+  width: 20%;
+}
+
+
+

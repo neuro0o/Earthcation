@@ -50,9 +50,10 @@
         else {
           // user does not exist, insert new user record, hash the password
           $pwdHash = trim(password_hash($_POST['userPwd'], PASSWORD_DEFAULT));
-          
-          $sql = "INSERT INTO user (userName, userEmail, userRole, userPwd)
-          VALUES ('$userName', '$userEmail', '$userRole', '$pwdHash')";
+          $defaultUserImg = '/IMAGES/PROFILE/default.png';
+
+          $sql = "INSERT INTO user (userName, userEmail, userRole, userPwd, userImg)
+          VALUES ('$userName', '$userEmail', '$userRole', '$pwdHash', '$defaultUserImg')";
 
           if(mysqli_query($conn, $sql)) {
             echo '<script type = "text/javascript">
