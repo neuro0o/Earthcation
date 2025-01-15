@@ -69,7 +69,7 @@
     <section class="userHome">
       <div class="profile-container">
         <div class="profile-img">
-          <img src="<?php echo htmlspecialchars($user_data['userImg']); ?>" alt="profile-img">
+          <img src="<?php echo BASE_URL . '/' . htmlspecialchars($user_data['userImg']); ?>" alt="profile-img">
         </div>
 
         <div class="profile-info">
