@@ -57,6 +57,14 @@
         </p>
       </div>
 
+      <div class="join-card-wishlist">
+        <h2 id="card-title">💖 Create Your Dream Wishlist</h2>
+        <p id="card-desc">
+        Got dreams of a fabulous vacation but need to save up? No worries! Add your dream
+        destinations to your wishlist and start planning for the future!
+        </p>
+      </div>
+
       <div class="join-card-weather">
         <h2 id="card-title">☀️ Stay on Top of the Weather</h2>
         <p id="card-desc">
@@ -65,13 +73,6 @@
         </p>
       </div>
 
-      <div class="join-card-wishlist">
-        <h2 id="card-title">💖 Create Your Dream Wishlist</h2>
-        <p id="card-desc">
-        Got dreams of a fabulous vacation but need to save up? No worries! Add your dream
-        destinations to your wishlist and start planning for the future!
-        </p>
-      </div>
     </div>
   </section>
 
