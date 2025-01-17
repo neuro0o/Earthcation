@@ -44,9 +44,67 @@
     
 
     <section class="userHome">
-      <h1 style="text-align: center;">
-        -- START OF USER HOME PAGE --
-      </h1><br><br>
+      <h1 id="section-title">Discover What Makes Us Special!</h1>
+      
+      <!-- local adventure card -->
+      <div class="info-card">
+        <div class="info-card-img">
+          <img src="../../IMAGES/MISC/mount_kinabalu.jpg" alt="">
+        </div>  
+
+        <div class="info-card-desc" id="left">
+          <h1>Explore Local Adventures!</h1><br>
+          <p>
+            From relaxing camping trips to exciting scuba diving,
+            we have got a whole world of local adventures waiting for you to discover!
+          </p>
+        </div>
+      </div>
+
+      <!-- accommodation card -->
+      <div class="info-card">
+        <div class="info-card-desc" id="right">
+          <h1>Book Your Stay with Ease!</h1><br>
+          <p>
+            Planning a getaway? Simply book your accommodation online and secure your
+            room in advance—stress-free and ready to relax!
+          </p>
+        </div>
+
+        <div class="info-card-img">
+          <img src="../../IMAGES/MISC/homestay.jpg" alt="">
+        </div>  
+      </div>
+
+      <!-- wishlist card -->
+      <div class="info-card">
+        <div class="info-card-img">
+          <img src="../../IMAGES/MISC/wishlist.jpg" alt="">
+        </div>  
+
+        <div class="info-card-desc" id="left">
+          <h1>Create Your Dream Wishlist!</h1><br>
+          <p>
+            Got dreams of a fabulous vacation but need to save up? No worries! Add your dream
+            destinations to your wishlist and start planning for the future!
+          </p>
+        </div>
+      </div>
+
+      <!-- weather forecast card -->
+      <div class="info-card">
+        <div class="info-card-desc" id="right">
+          <h1>Stay on Top of the Weather!</h1><br>
+          <p>
+            Capture that perfect holiday photo with our live weather
+            forecast—because we know you want your memories to be as beautiful as the view!
+          </p>
+        </div>
+
+        <div class="info-card-img">
+          <img src="../../IMAGES/MISC/weather.jpg" alt="">
+        </div>  
+      </div>
     </section>
 
     <!-- include topNav.js -->
